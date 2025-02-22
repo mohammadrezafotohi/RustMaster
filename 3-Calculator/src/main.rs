@@ -59,7 +59,7 @@ fn main() {
     }
 
     clear_console();
-    println!("Programm Ends!\nEnter eny key to exit!");
+    println!("Program ends!\nPress any key to exit!");
     let mut buffer = [0;1];
     io::stdin().read_exact(&mut buffer).expect("!");
 }
