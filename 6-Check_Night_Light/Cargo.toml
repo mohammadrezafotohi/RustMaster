@@ -1,0 +1,9 @@
+[package]
+name = "Check_Night_Light"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+simple = "0.3.0"
+winapi = { version = "0.3.9", features = ["wincon", "winuser"] }
+winreg = "0.55.0"
