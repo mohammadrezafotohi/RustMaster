@@ -1,0 +1,11 @@
+[package]
+name = "Crypto_Price"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+serde = { version = "1.0.218", features = ["derive"] }
+serde_json = "1.0.139"
+surf = "2.3.2"
+tokio = { version = "1.43.0", features = ["full"] }
