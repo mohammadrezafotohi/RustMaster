@@ -1,0 +1,9 @@
+[package]
+name = "Can_You_Hear_Me"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpal = "0.15.3"
+crossterm = "0.28.1"
+simple = "0.3.0"
