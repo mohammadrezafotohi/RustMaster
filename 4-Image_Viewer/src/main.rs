@@ -49,5 +49,5 @@ fn wait_to_see_error() {
   let mut buffer = [0;1];
   print!("Program ends!\nPress any key to exit!");
   io::stdout().flush().unwrap();
-  io::stdin().read_exact(&mut buffer);
+  let _ = io::stdin().read_exact(&mut buffer);
 }
